@@ -35,6 +35,7 @@ setup(
     packages=['voluptuous'],
     author='Alec Thomas',
     author_email='alec@swapoff.org',
+    setup_requires=['Babel'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',

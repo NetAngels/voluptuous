@@ -1,3 +1,4 @@
+# encoding: utf-8
 import copy
 import collections
 import os
@@ -192,7 +193,6 @@ def test_email_validation():
     """ test with valid email """
     schema = Schema({"email": Email()})
     out_ = schema({"email": "example@example.com"})
-
     assert 'example@example.com"', out_.get("url")
 
 
@@ -230,6 +230,15 @@ def test_email_validation_without_host():
                      "expected an Email for dictionary value @ data['email']")
     else:
         assert False, "Did not raise Invalid for empty string url"
+
+
+def test_email_idna_validation():
+    """ test with valid email """
+    email = "пример.рф".decode('utf-8').encode('idna')
+    schema = Schema({"email": Email()})
+    out_ = schema({"email": email})
+
+    assert email, out_.get("url")
 
 
 def test_fqdn_url_validation():

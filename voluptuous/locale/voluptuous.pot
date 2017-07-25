@@ -1,0 +1,164 @@
+# Translations template for voluptuous.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the voluptuous project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: voluptuous 0.10.5\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-07-20 17:27+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: voluptuous/validators.py:97
+msgid "expected {type}"
+msgstr ""
+
+#: voluptuous/validators.py:104
+msgid "value was not true"
+msgstr ""
+
+#: voluptuous/validators.py:131
+msgid "value was not false"
+msgstr ""
+
+#: voluptuous/validators.py:153
+msgid "expected boolean"
+msgstr ""
+
+#: voluptuous/validators.py:225
+msgid "no valid value found"
+msgstr ""
+
+#: voluptuous/validators.py:301
+msgid "expected string or buffer"
+msgstr ""
+
+#: voluptuous/validators.py:303
+msgid "does not match regular expression"
+msgstr ""
+
+#: voluptuous/validators.py:338
+msgid "must have a URL scheme and host"
+msgstr ""
+
+#: voluptuous/validators.py:342
+msgid "expected an Email"
+msgstr ""
+
+#: voluptuous/validators.py:358 voluptuous/validators.py:362
+msgid "Invalid Email"
+msgstr ""
+
+#: voluptuous/validators.py:381
+msgid "must have a domain name in URL"
+msgstr ""
+
+#: voluptuous/validators.py:404
+msgid "not a file"
+msgstr ""
+
+#: voluptuous/validators.py:421 voluptuous/validators.py:423
+msgid "Not a file"
+msgstr ""
+
+#: voluptuous/validators.py:426
+msgid "not a directory"
+msgstr ""
+
+#: voluptuous/validators.py:441 voluptuous/validators.py:443
+msgid "Not a directory"
+msgstr ""
+
+#: voluptuous/validators.py:446
+msgid "path does not exist"
+msgstr ""
+
+#: voluptuous/validators.py:463 voluptuous/validators.py:465
+msgid "Not a Path"
+msgstr ""
+
+#: voluptuous/validators.py:526
+msgid "value must be at least {min}"
+msgstr ""
+
+#: voluptuous/validators.py:530
+msgid "value must be higher than {min}"
+msgstr ""
+
+#: voluptuous/validators.py:534
+msgid "value must be at most {max}"
+msgstr ""
+
+#: voluptuous/validators.py:538
+msgid "value must be lower than {max}"
+msgstr ""
+
+#: voluptuous/validators.py:590
+msgid "length of value must be at least {min}"
+msgstr ""
+
+#: voluptuous/validators.py:593
+msgid "length of value must be at most {max}"
+msgstr ""
+
+#: voluptuous/validators.py:614 voluptuous/validators.py:638
+msgid "value does not match expected format {format}"
+msgstr ""
+
+#: voluptuous/validators.py:633
+msgid "value has invalid length expected length {length} ({format})"
+msgstr ""
+
+#: voluptuous/validators.py:659 voluptuous/validators.py:679
+#: voluptuous/validators.py:706
+msgid "value is not allowed"
+msgstr ""
+
+#: voluptuous/validators.py:782
+msgid "contains unhashable elements: {0}"
+msgstr ""
+
+#: voluptuous/validators.py:787
+msgid "contains duplicate items: {0}"
+msgstr ""
+
+#: voluptuous/validators.py:817
+msgid "Values are not equal: value:{value} != target:{target}"
+msgstr ""
+
+#: voluptuous/validators.py:846
+msgid "Value {value} is not sequence!"
+msgstr ""
+
+#: voluptuous/validators.py:849
+msgid "List lengths differ, value:{value} != target:{target}"
+msgstr ""
+
+#: voluptuous/validators.py:871 voluptuous/validators.py:873
+msgid "Element #{} ({}) is not valid against any validator"
+msgstr ""
+
+#: voluptuous/validators.py:912
+msgid "Precision must be equal to {precision}, and Scale must be equal to {scale}"
+msgstr ""
+
+#: voluptuous/validators.py:916
+msgid "Precision must be equal to {precision}"
+msgstr ""
+
+#: voluptuous/validators.py:919
+msgid "Scale must be equal to {scale}"
+msgstr ""
+
+#: voluptuous/validators.py:937
+msgid "Value must be a number enclosed with string"
+msgstr ""
+

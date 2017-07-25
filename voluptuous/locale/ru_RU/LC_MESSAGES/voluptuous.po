@@ -1,0 +1,165 @@
+# Translations template for voluptuous.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the voluptuous project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: voluptuous 0.10.5\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-07-20 17:28+0500\n"
+"PO-Revision-Date: 2017-07-20 17:32+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.1\n"
+"Last-Translator: Василий Шередеко <piphon@gmail.com>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#: voluptuous/validators.py:97
+msgid "expected {type}"
+msgstr "ожидается тип {type}"
+
+#: voluptuous/validators.py:104
+msgid "value was not true"
+msgstr "Значение не является истиным"
+
+#: voluptuous/validators.py:131
+msgid "value was not false"
+msgstr "Значение не является ложным"
+
+#: voluptuous/validators.py:153
+msgid "expected boolean"
+msgstr "ожидается логическое значение"
+
+#: voluptuous/validators.py:225
+msgid "no valid value found"
+msgstr "не найдено валидное значение "
+
+#: voluptuous/validators.py:301
+msgid "expected string or buffer"
+msgstr "ожидается строка или буфер"
+
+#: voluptuous/validators.py:303
+msgid "does not match regular expression"
+msgstr "не соответствует регулярному выражению"
+
+#: voluptuous/validators.py:338
+msgid "must have a URL scheme and host"
+msgstr "должен иметь схему и имя хоста URL"
+
+#: voluptuous/validators.py:342
+msgid "expected an Email"
+msgstr "ожидается email"
+
+#: voluptuous/validators.py:358 voluptuous/validators.py:362
+msgid "Invalid Email"
+msgstr "Неправильный email"
+
+#: voluptuous/validators.py:381
+msgid "must have a domain name in URL"
+msgstr "Должен иметь домен в URL"
+
+#: voluptuous/validators.py:404
+msgid "not a file"
+msgstr "не файл"
+
+#: voluptuous/validators.py:421 voluptuous/validators.py:423
+msgid "Not a file"
+msgstr "Не файл"
+
+#: voluptuous/validators.py:426
+msgid "not a directory"
+msgstr "не каталог"
+
+#: voluptuous/validators.py:441 voluptuous/validators.py:443
+msgid "Not a directory"
+msgstr "Не каталог"
+
+#: voluptuous/validators.py:446
+msgid "path does not exist"
+msgstr "файл не существует"
+
+#: voluptuous/validators.py:463 voluptuous/validators.py:465
+msgid "Not a Path"
+msgstr "Не путь до файла"
+
+#: voluptuous/validators.py:526
+msgid "value must be at least {min}"
+msgstr "значение должно быть не менее {min}"
+
+#: voluptuous/validators.py:530
+msgid "value must be higher than {min}"
+msgstr "значение должно быть больше {min}"
+
+#: voluptuous/validators.py:534
+msgid "value must be at most {max}"
+msgstr "значение должно быть не более {max}"
+
+#: voluptuous/validators.py:538
+msgid "value must be lower than {max}"
+msgstr "значение должно быть меньше {max}"
+
+#: voluptuous/validators.py:590
+msgid "length of value must be at least {min}"
+msgstr "длина должна быть не менее {min}"
+
+#: voluptuous/validators.py:593
+msgid "length of value must be at most {max}"
+msgstr "длина должна быть не более {max}"
+
+#: voluptuous/validators.py:614 voluptuous/validators.py:638
+msgid "value does not match expected format {format}"
+msgstr "значение не соответствует ожидаемому формату {format}"
+
+#: voluptuous/validators.py:633
+msgid "value has invalid length expected length {length} ({format})"
+msgstr "значение имеет не допустимую длину {length} ({format})"
+
+#: voluptuous/validators.py:659 voluptuous/validators.py:679
+#: voluptuous/validators.py:706
+msgid "value is not allowed"
+msgstr "значение не допустимо"
+
+#: voluptuous/validators.py:782
+msgid "contains unhashable elements: {0}"
+msgstr ""
+
+#: voluptuous/validators.py:787
+msgid "contains duplicate items: {0}"
+msgstr ""
+
+#: voluptuous/validators.py:817
+msgid "Values are not equal: value:{value} != target:{target}"
+msgstr ""
+
+#: voluptuous/validators.py:846
+msgid "Value {value} is not sequence!"
+msgstr ""
+
+#: voluptuous/validators.py:849
+msgid "List lengths differ, value:{value} != target:{target}"
+msgstr ""
+
+#: voluptuous/validators.py:871 voluptuous/validators.py:873
+msgid "Element #{} ({}) is not valid against any validator"
+msgstr ""
+
+#: voluptuous/validators.py:912
+msgid "Precision must be equal to {precision}, and Scale must be equal to {scale}"
+msgstr ""
+
+#: voluptuous/validators.py:916
+msgid "Precision must be equal to {precision}"
+msgstr ""
+
+#: voluptuous/validators.py:919
+msgid "Scale must be equal to {scale}"
+msgstr ""
+
+#: voluptuous/validators.py:937
+msgid "Value must be a number enclosed with string"
+msgstr ""

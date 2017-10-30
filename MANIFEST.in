@@ -2,4 +2,9 @@ include *.md
 include COPYING
 include voluptuous/tests/*.py
 include voluptuous/tests/*.md
-recursive-include voluptuous/locale
+
+recursive-include voluptuous/locale *
+
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude .DS_Store

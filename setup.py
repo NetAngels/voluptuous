@@ -24,6 +24,7 @@ setup(
     license='BSD',
     platforms=['any'],
     packages=['voluptuous'],
+    include_package_data=True,
     author='Alec Thomas',
     author_email='alec@swapoff.org',
     setup_requires=['Babel'],
